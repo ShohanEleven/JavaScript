@@ -1,0 +1,58 @@
+//Arithmetic Operators
+let a =34;
+let b = 26;
+console.log("a+b=" ,a+b)
+console.log("a-b=" ,a-b)
+console.log("a*b=" ,a*b)
+console.log("a/b=" ,a/b)
+console.log("a**b=" ,a**b) //34 to the power 26
+console.log("a%b=" ,a%b)// bhagshesh
+//console.log("++a=" ,++a)
+console.log("--b=" ,--b)
+// ++a te agee increment hobe ,then print hobe
+// a++ te agee print hobe , then increment hobe
+console.log("++a=" ,++a) //35
+console.log("a++=" ,a++) //35
+console.log("--a=" ,--a) //35
+console.log("a--=" ,a--) //35
+console.log("a=" ,a) //34
+
+//Assignment Operators
+let c = 5;
+c += 5 // same as c=c+5
+console.log(c)
+c -= 5 // same as c=c-5
+console.log(c)
+c *= 5 // same as c=c*5
+console.log(c)
+c /= 5 // same as c=c/5
+console.log(c)
+c %= 5 // same as c=c%5
+console.log(c)
+c **= 5 // same as c=c**5
+console.log(c)
+
+//Comparison Operators
+
+let x = 4
+let y = "4"
+console.log("x==y is", x==y)
+console.log("x!=y is", x!=y)
+console.log("x===y is", x===y) //y er datatype string ,x er number , shei khetre === false dibe 
+console.log("x!==y is", x!==y) //not equal value , not equal type
+console.log("x>y is", x>y)
+console.log("x<y is", x<y)
+console.log("x>=y is", x>=y)
+console.log("x<=y is", x<=y)
+
+//Logical Operators
+// && = Logical and
+// || = Logical or
+// ! = Logical not
+
+let g = 4;
+let h = 5;
+console.log (g<h && g == 4)
+console.log (g>h || g == 4)
+console.log (!false)
+

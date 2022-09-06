@@ -1,0 +1,24 @@
+//question korar khetre "prompt" use kora hoy
+
+let a = prompt("Hey ! whats your age ?")
+//console.log(typeof a)//eta string
+ a = Number.parseInt(a) //converting the string to a number
+console.log(typeof a) //eta number e convert hoye gese
+if (a<=0){
+  alert("This is an invalid age")
+}
+  else if(a<9){
+    alert("Tui ekta puchki pola ,Hop")
+  }
+    else if (a>9 && 18>=a)
+    {
+      alert (" Tui ekta teenager")
+    }
+else{
+  alert ("You are a Man")
+}
+console.log("Done")
+
+
+console.log("you can", (18>a?"not drive":"drive"))
+console.log("you are",(18<a?"teenager":"not teenager"))

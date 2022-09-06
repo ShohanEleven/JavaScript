@@ -1,0 +1,31 @@
+console.log("This is my first code")
+
+function add (a,b,c){
+  return a+b+c;
+}
+  let c= add(1,4,5)
+console.log(c)
+
+
+function sub (a,b,c)
+  {
+    return a-b-c;
+  }
+let b= sub(20,12,10)
+console.log(b)
+
+
+function mul (a,b,c)
+  {
+    return a*b*c;
+  }
+let a= mul(10,12,10)
+console.log(a)
+
+
+function div (a,b,c)
+  {
+    return a/b/c;
+  }
+let d= div(10,20,10)
+console.log(d)

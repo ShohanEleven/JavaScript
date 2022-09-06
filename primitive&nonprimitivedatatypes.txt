@@ -1,0 +1,22 @@
+//primitivedatatypes
+
+let a= null;
+console.log(typeof a)
+let c= true;
+console.log(c)
+let b = 993
+console.log(b)
+let e= "Shohan"
+console.log(e)
+
+
+//NonPrimitivedatatypes object
+
+const man={
+"Shohan": true,
+  "Rohan": false,
+  "Joy": 76,
+  
+}
+  console.log(man["Shohan"])
+

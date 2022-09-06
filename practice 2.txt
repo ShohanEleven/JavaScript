@@ -1,0 +1,54 @@
+//problem 1
+
+let a= prompt("Hey ! What's your age?")
+
+if (a>=10 && a<=20){
+  console.log("your age is lies between 10 and 20")
+}
+else
+{
+  console.log("your age is not lies between 10 and 20")
+}
+
+//problem 2
+
+let aa= prompt("Hey ! What's your age")
+switch(aa){
+case '21':
+console.log("your age is 21")
+break
+    case '22':
+console.log("your age is 22")
+break
+    case '23':
+console.log("your age is 23")
+break
+  default:
+    console.log("Ja bhaag")
+}
+
+//problem 3
+
+
+let num = prompt("Hey ! What's your age")
+if(num%2==0 && num%3==0){
+  console.log("your number is divisible")
+}
+else{
+  console.log("your number is not divisible")
+}
+
+//problem 4
+
+let man = prompt("Hey ! What's your age?")
+if(man%2==0 || man%3==0){
+  console.log("your number is divisible")
+}
+else{
+  console.log("your number is not divisible")
+}
+
+//problem 5
+let age= 17
+let c = age>18?"you can drive":"you can not drive"
+console.log(c)
