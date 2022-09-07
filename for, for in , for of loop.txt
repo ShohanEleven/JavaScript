@@ -1,0 +1,38 @@
+for(i=0;i<5;i++){
+  console.log(i)
+}
+
+
+
+
+let mul=1
+let n = prompt("Enter teh value of n")
+n= Number.parseInt(n)
+
+
+
+
+for(let i=1;i<n;i++){
+  mul *= (i*1)
+ 
+}
+console.log("mul of first "+ n+ " natural number is "+mul)
+
+
+
+// For In Loop
+
+let Juuu ={
+  Shohan : 95,
+  Sajal : 92,
+  Nibir : 91,
+  Dip : 90
+  
+}
+for(let a in Juuu)
+console.log(" Marks of " + a + " are " +Juuu[a])
+
+//For of Loop
+
+for(let b of "Shohan")
+console.log(b)
