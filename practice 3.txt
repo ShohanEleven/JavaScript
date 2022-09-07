@@ -1,0 +1,41 @@
+// write a program to print the marks of a students in an object using for loops
+
+let marks ={
+  Shohan : 99,
+  Sajal : 98,
+  Nibir : 97,
+  Dip : 96
+}
+for (let i=0; i<Object.keys(marks).length;i++){
+  console.log(" The marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]] )
+}
+
+// write the program in q1 , using for in loops
+
+let marks ={
+  Shohan : 99,
+  Sajal : 98,
+  Nibir : 97,
+  Dip : 96
+}
+for ( let a in marks)
+  console.log (" The marks of " + a + " are " + marks[a])
+
+// write a program to print "try again" until the user catches the correct number
+
+let a = 97
+let i;
+
+while (i != a){
+   console.log ("try again")
+  i = prompt("Enter a number")
+ 
+}
+console.log ("This is your correct number ")
+
+// write a function to find mean of 5 numbers
+
+const mean = (a,b,c,d) => {
+  return (a+b+c+d)/4
+}
+console.log(mean(7,8,9,4))

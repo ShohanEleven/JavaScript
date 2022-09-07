@@ -1,31 +1,26 @@
-console.log("This is my first code")
-
-function add (a,b,c){
-  return a+b+c;
+//arrow function
+const eleven =()=>{
+  console.log ("you are the best el")
+  return "hey"
 }
-  let c= add(1,4,5)
-console.log(c)
+
+const sum = (p,q)=>{
+  return p+q;
+}
 
 
-function sub (a,b,c)
-  {
-    return a-b-c;
-  }
-let b= sub(20,12,10)
-console.log(b)
+//normal function
+function shohan (a,b){
+  console.log("Done")
+return (a+b)/2}
 
+let a = 3;
+let b =4;
+let c =5;
+let d = eleven();
 
-function mul (a,b,c)
-  {
-    return a*b*c;
-  }
-let a= mul(10,12,10)
-console.log(a)
-
-
-function div (a,b,c)
-  {
-    return a/b/c;
-  }
-let d= div(10,20,10)
-console.log(d)
+console.log (d)
+console.log(sum(9,2))
+console.log(" Avg of a and b is ", shohan(a,b)) 
+console.log(" Avg of b and c is ", shohan(b,c)) 
+console.log(" Avg of c and a is ", shohan(c,a)) 

@@ -1,0 +1,18 @@
+let name ='Shohan'
+console.log(name.length)
+console.log(name[0])
+console.log(name[1])
+
+//Template literals
+
+let hey1= "Shohan"
+let hey2= "Sajal"
+let sentence =`${hey2} is a friend of ${hey1}`
+console.log(sentence)
+
+//Escape sequence character
+
+let know = 'Don\'t know'
+console.log(know)
+let jaah = 'oidike\njao' //\n new line create hoy
+console.log (jaah)
