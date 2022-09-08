@@ -1,0 +1,41 @@
+// create an array of numbers and take input from the user to add numbers to this array
+
+let arr= [23,323,32223,33]
+let a = prompt(" Enter a number")
+a =Number.parseInt(a)
+arr.push(a)
+console.log(arr)
+
+// keep adding numbers too the array in question 1 until 0 is added to the array
+
+let brr= [23,323,32223,33]
+let b ;
+do{
+  b = prompt(" Enter a number")
+b =Number.parseInt(b)
+brr.push(b)
+}while(b !=0)
+console.log(brr)
+
+//filter for number divisible by 10 from a given array
+let p = [30,50,40,55,33,32]
+let q= p.filter((s)=>{
+  return s%10==0
+})
+console.log(q)
+
+//create an array of square of given numbers
+
+let t = [30,50,40,55,33,32]
+let i= p.map((m)=>{
+  return m*m
+})
+console.log(i)
+
+// use raduce to calculate factorial of a given number from an array of first n natural numbers ( n being the number  whose factorial needs to be calculated)
+
+let z = [30,50,40,55,33,32]
+let x= p.reduce((m1,m2)=>{
+  return m1 * m2
+})
+console.log(x)
