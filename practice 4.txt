@@ -1,0 +1,30 @@
+// what will be the following print in javascript!
+console.log("har\"".length)
+ans : 4 // \* ei duita mile ekta character
+
+
+//Explore the inculdes , starts with & ends with functions of a string
+
+const sentence = ' I am a cricketer in my imagination.';
+const word = 'am2';
+console.log(sentence.includes(word))
+console.log(` The word "${word}" ${sentence.includes(word) ?'is' : 'is not'} in the sentence `); //includes diye sentence true naki false return kore , ekhane 'am2' sentence e nai , tai false return korbe
+
+console.log (sentence.startsWith ("hello")) // startsWith diye check kore kon word diye start hoise , thik hoile true return korbe 
+console.log (sentence.endsWith ("imagination.")) // same as startsWith
+
+// write a program to convert a given string to lower case
+
+let bro = " Hey Man ? I am a bro "
+console.log (bro.toLowerCase())
+
+//Extract the amount out of this string - "please give rs 100"
+ let hi = " please give rs 100"
+let amo = Number.parseInt(hi.slice(15))
+console.log (amo)
+
+// Try to change 4th character of a given string were you able to do it ?
+
+let el = "Shohan"
+el [3] ="b"
+console.log(el) //el is not change because string is imutable
