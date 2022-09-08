@@ -1,0 +1,37 @@
+let num = [ 1,2,3,4 ]
+let b= num.toString() //string e convert
+console.log(b)
+let c = num.join("+") //sob gular sathe "+" join kore dibe
+console.log(c)
+let d = num.pop()// pop diye last element kata jay
+console.log(num ,d) // d diye abar last element return 
+let e = num.push (90) // array er last e notun element add hoy
+console.log(num) 
+let f = num.shift() // prothom element kete dey
+console.log(num)
+let g = num.unshift(88) // prothome notun element add kore
+console.log(num)
+
+delete num[0] // element empty kore dey
+console.log(num)
+
+let num2= [5,6,7,8]
+let num3= [9,10,11,12]
+let newarr= num.concat(num2, num3) // koyekta array add kore
+console.log(newarr)
+
+let compare= (a ,b) =>{ // compare korbe
+  return b - a // ei khetre value gula boro theke chotor dwike asbe
+}
+  
+let ka = [3,2,4,5,8,6]
+ka.sort(compare) // sort kore 
+console.log(ka)
+
+let el = [ 43,44,34,3433]
+el.reverse() // ulta kore dey
+console.log (el)
+
+let bu = [2,32,3243,2323,12132]
+bu.splice(1,3,3333,3334,3335) // prothom element diye bujhay koto number index theke shuru korbe , second ta diye bujhay koyta delete korbe , ar bakigula add hocche
+console.log(bu)

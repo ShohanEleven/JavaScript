@@ -1,0 +1,11 @@
+let marks= ["roll-1 = " + 98,93,92,null,"sick"]
+console.log(marks)
+console.log("The length of marks is " + marks.length)
+console.log(marks[0])
+console.log(marks[4])
+console.log(marks[3])
+console.log(marks[1])
+marks[6]=98 //Adding a new value to the array
+console.log(marks[6])
+marks[0]=96 //changing the value of an array
+console.log(marks[0])
