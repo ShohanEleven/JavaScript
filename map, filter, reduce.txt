@@ -1,0 +1,29 @@
+// Array map method
+// map() creates a new array by performing some operation on each array element
+
+let rrr= [89,90,91]
+let a =  rrr.map((value, index ,array )=>{
+  console.log(value , index , array)
+  return value + 1
+})
+console.log(a)
+
+// Array filter method
+// jodi 10 theke choto array gula print korte chai baa jekono condition diye kono array print korte chai , shei khetre filter method use hoy
+
+let ddd = [112,1213,1213,22,1,2,3]
+let a2 = ddd.filter((eee) =>{
+return eee<30
+  
+})
+
+console.log(a2)
+
+//Array reduce method
+
+let ll = [23,24,25,26]
+let jk = ll.reduce((h1,h2)=>{
+  return h1 + h2
+})
+console.log (jk)
+// ekhane reduce er maddhome prothome prothom duita songkha jog korse , then oi jog foler sathe porer gula ek ek kore jog kore gese

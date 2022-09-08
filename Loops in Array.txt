@@ -1,0 +1,28 @@
+// array in loop
+let dus= [3,2,5,4]
+for(i=0; i<dus.length;i++)
+  console.log(dus[i])
+
+// forEach loop use kore array gula multiply
+
+let jiii = [7,4,8,2]
+jiii.forEach((element)=>{
+  console.log(element*element)
+})
+
+  // Array.from is used to create an array from any other object
+ let hi = "Shohan"
+let to = Array.from(hi)
+console.log(to)
+
+// for ... of loop 
+let ku= [8,7,2,4]
+for ( let i of ku){
+  console.log(i)
+}
+
+// for ... in loop  // key show korbe
+let bu= [8,7,2,4]
+for ( let p in bu){
+  console.log(bu [p])
+}
