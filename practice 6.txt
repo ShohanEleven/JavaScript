@@ -1,0 +1,84 @@
+//problem 1 //write a program using prompt function to take inpute of age as a value from the user and use alert to tell him if he can drive
+
+let a = prompt(" Enter your age")
+a=Number.parseInt(a)
+let b =18;
+if (a>=b){
+  alert("yes you can drive")
+}
+else if (a<b){
+  alert ( " you can not drive")
+}
+
+//othoba
+
+let age = prompt(" Enter your age")
+age=Number.parseInt(age)
+
+const can=(age)=>{
+  age>=18?true:false
+}
+if(can(age)){
+  alert("yes you can drive")
+}
+else{
+  alert("you can not drive")
+}
+
+//problem 2 // In question 1 use confirm to ask the user if he wants to see the prompt again
+
+let run = true;
+
+
+while (run){
+let a = prompt(" Enter your age")
+a=Number.parseInt(a)
+ 
+let b =18;
+if (a>=b){
+  alert("yes you can drive")
+}
+else if (a<b){
+  alert ( " you can not drive")
+}
+
+run=confirm("play again")
+}
+
+//problem 3 // In the previous qustion , use console.error to log the error if the age entered in negative
+
+let run = true;
+
+
+while (run){
+let a = prompt(" Enter your age")
+a=Number.parseInt(a)
+  if (a<0){
+    console.error("please enter a valid age");
+    break;
+  }
+let b =18;
+if (a>=b){
+  alert("yes you can drive")
+}
+else if (a<b){
+  alert ( " you can not drive")
+}
+
+run=confirm("play again")
+}
+
+
+// problem 4 // write a program to change the url to google.com (Redirection) if users enter a number greater than 4
+
+let q = prompt("Enter a number")
+q= Number.parseInt(q)
+if (q>4){
+  location.href= "https://google.com"
+}
+
+
+// problem 5 // change the background of the page to yellow , red or any other colour based on user input through prompt
+
+let c = prompt( "Enter the color")
+document.body.style.background = c

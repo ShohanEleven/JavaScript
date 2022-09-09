@@ -1,0 +1,18 @@
+let a ;
+while(a!==0){
+let b = prompt("Enter the rating")
+b= Number.parseInt(b)
+
+if (1900<=b){
+  console.log("Division 1")
+}
+  else if (1600<= b && b<=1899){
+    console.log("Division 2")
+  }
+ else if (1400<= b && b<=1599){
+    console.log("Division 3")
+  }
+ else if (b<=1399){
+    console.log("Division 4")
+  }
+}

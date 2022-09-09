@@ -1,0 +1,7 @@
+console.assert() //used to assert
+console.clear() // clear the console
+console.log() // outputs a msg to the console
+console.warn() //used to warnings
+console.table() // display a table data 
+console.error() // display error
+console.info() //used for special information
